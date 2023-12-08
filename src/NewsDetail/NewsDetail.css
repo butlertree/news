@@ -1,0 +1,45 @@
+.card-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.card-content {
+  flex: 1;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.news-image {
+  max-width: 100%;
+}
+
+.description {
+  flex: 2;
+  padding: 20px;
+  text-align: left;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.back-to-main {
+  flex: 1;
+  text-align: right;
+}
